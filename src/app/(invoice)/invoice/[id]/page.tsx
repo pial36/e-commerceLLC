@@ -25,9 +25,9 @@ export default async function InvoicePage({ params }: { params: Promise<{ id: st
               <ChefHat className="h-6 w-6" /> Masud Rana LLC
             </div>
             <p className="mt-1 text-sm text-neutral-500">
-              39 Brooklyn Street, Covington, VA 24426
+              30 N Gould St Ste R, Sheridan, WY 82801
               <br />
-              contact@masudrana.com
+              Contact@masudrana.net · +1 (804) 485-4880
             </p>
           </div>
           <div className="text-right">

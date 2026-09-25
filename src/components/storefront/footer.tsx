@@ -33,9 +33,18 @@ export function Footer() {
         <div>
           <h4 className="mb-3 text-sm font-semibold">Contact us</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>Contact@masudrana.com</li>
-            <li>39 Brooklyn Street</li>
-            <li>Covington, VA 24426</li>
+            <li>
+              <a href="mailto:Contact@masudrana.net" className="hover:text-foreground">
+                Contact@masudrana.net
+              </a>
+            </li>
+            <li>
+              <a href="tel:+18044854880" className="hover:text-foreground">
+                +1 (804) 485-4880
+              </a>
+            </li>
+            <li>30 N Gould St Ste R</li>
+            <li>Sheridan, WY 82801</li>
           </ul>
         </div>
       </div>
