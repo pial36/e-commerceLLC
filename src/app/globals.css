@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm cream / beige storefront palette (from reference) */
+    --background: 40 30% 92%;         /* #EDE7DC cream */
+    --foreground: 30 8% 12%;          /* near-black charcoal */
+    --card: 40 33% 96%;
+    --card-foreground: 30 8% 12%;
+    --popover: 40 33% 96%;
+    --popover-foreground: 30 8% 12%;
+    --primary: 30 8% 12%;             /* charcoal buttons */
+    --primary-foreground: 40 30% 95%;
+    --secondary: 38 24% 85%;          /* soft tan */
+    --secondary-foreground: 30 8% 12%;
+    --muted: 38 20% 88%;
+    --muted-foreground: 30 6% 40%;
+    --accent: 34 40% 78%;             /* warm accent */
+    --accent-foreground: 30 8% 12%;
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 36 16% 80%;
+    --input: 36 16% 80%;
+    --ring: 30 8% 12%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 30 8% 10%;
+    --foreground: 40 30% 92%;
+    --card: 30 8% 13%;
+    --card-foreground: 40 30% 92%;
+    --popover: 30 8% 13%;
+    --popover-foreground: 40 30% 92%;
+    --primary: 40 30% 92%;
+    --primary-foreground: 30 8% 12%;
+    --secondary: 30 6% 20%;
+    --secondary-foreground: 40 30% 92%;
+    --muted: 30 6% 18%;
+    --muted-foreground: 40 10% 65%;
+    --accent: 34 25% 30%;
+    --accent-foreground: 40 30% 92%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 6% 24%;
+    --input: 30 6% 24%;
+    --ring: 40 30% 80%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}

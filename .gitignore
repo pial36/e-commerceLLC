@@ -1,0 +1,16 @@
+/node_modules
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.env
+.env*.local
+/coverage
+next-env.d.ts
+/prisma/migrations/dev.db*
+*.tsbuildinfo
+
+# Local DB artifact
+ruvector.db
