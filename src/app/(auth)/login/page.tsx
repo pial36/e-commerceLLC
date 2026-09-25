@@ -66,16 +66,20 @@ function LoginForm() {
         </Button>
       </form>
 
-      <div className="my-5 flex items-center gap-3 text-xs text-muted-foreground">
-        <div className="h-px flex-1 bg-border" /> OR <div className="h-px flex-1 bg-border" />
-      </div>
-      <Button
-        variant="outline"
-        className="w-full"
-        onClick={() => signIn("google", { callbackUrl: "/account" })}
-      >
-        Continue with Google
-      </Button>
+      {process.env.NEXT_PUBLIC_GOOGLE_ENABLED === "true" && (
+        <>
+          <div className="my-5 flex items-center gap-3 text-xs text-muted-foreground">
+            <div className="h-px flex-1 bg-border" /> OR <div className="h-px flex-1 bg-border" />
+          </div>
+          <Button
+            variant="outline"
+            className="w-full"
+            onClick={() => signIn("google", { callbackUrl: "/account" })}
+          >
+            Continue with Google
+          </Button>
+        </>
+      )}
 
       <p className="mt-6 text-center text-sm text-muted-foreground">
         No account?{" "}
