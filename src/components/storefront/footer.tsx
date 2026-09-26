@@ -35,8 +35,8 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li className="font-medium text-foreground">Masud Rana LLC</li>
             <li>
-              <a href="mailto:contact@masudrana.net" className="hover:text-foreground">
-                contact@masudrana.net
+              <a href="mailto:contact@masudranallc.net" className="hover:text-foreground">
+                contact@masudranallc.net
               </a>
             </li>
             <li>
