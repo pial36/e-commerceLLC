@@ -27,7 +27,7 @@ export default async function InvoicePage({ params }: { params: Promise<{ id: st
             <p className="mt-1 text-sm text-neutral-500">
               30 N Gould St Ste R, Sheridan, WY 82801
               <br />
-              Contact@masudrana.net · +1 (804) 485-4880
+              contact@masudrana.net · +1 (804) 485-4880
             </p>
           </div>
           <div className="text-right">
