@@ -44,8 +44,10 @@ export function Footer() {
                 +1 (804) 485-4880
               </a>
             </li>
-            <li>30 N Gould St Ste R</li>
-            <li>Sheridan, WY 82801</li>
+            <li>611 E Carlson St</li>
+            <li>Suite 116 PMB 7072</li>
+            <li>Cheyenne, WY 82009</li>
+            <li>United States</li>
           </ul>
         </div>
       </div>
